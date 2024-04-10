@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Dylan\\boolean\\ApiByjulio\\Gamestore\\Gamestore\\Gamestore.csproj": {}
+    "C:\\Users\\Dylan\\boolean\\ApiByjulio\\Gamestore\\Gamestore\\Gamestore.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Dylan\\boolean\\ApiByjulio\\Gamestore\\Gamestore\\Gamestore.csproj": {
+    "C:\\Users\\Dylan\\boolean\\ApiByjulio\\Gamestore\\Gamestore\\Gamestore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Dylan\\boolean\\ApiByjulio\\Gamestore\\Gamestore\\Gamestore.csproj",
+        "projectUniqueName": "C:\\Users\\Dylan\\boolean\\ApiByjulio\\Gamestore\\Gamestore\\Gamestore.csproj",
         "projectName": "Gamestore",
-        "projectPath": "c:\\Users\\Dylan\\boolean\\ApiByjulio\\Gamestore\\Gamestore\\Gamestore.csproj",
+        "projectPath": "C:\\Users\\Dylan\\boolean\\ApiByjulio\\Gamestore\\Gamestore\\Gamestore.csproj",
         "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Dylan\\boolean\\ApiByjulio\\Gamestore\\Gamestore\\obj\\",
+        "outputPath": "C:\\Users\\Dylan\\boolean\\ApiByjulio\\Gamestore\\Gamestore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0-preview.2.24128.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.0-preview.2.24128.4, )"
